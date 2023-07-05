@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">  
+<title>Frontend Mentor | Intro component with sign up form</title>
+
+  
+</head>
+<body>
+<div id="container">
+  <div id="sub-container">
+    <div id="text-container">
+      <h1 id="text-1">Learn to code by watching others</h1>
+      <p id="text-2">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.</p>
+    </div>
+    <div id="main-form-container">
+      <p id="trial"><span id="trial-bold">Try it free 7 days</span> then $20/mo. thereafter</p>
+      <div id="form-container">
+      <form id="form" action="">
+        <div class="field-group">
+        <input type="text" id="first-name" class="form" placeholder="First Name">
+        <span class="error-icon fn"><img src="images/icon-error.svg" alt=""></span>
+        <span class="error-text fn2">First Name cannot be empty</span><br>
+      </div>
+      <div class="field-group">
+        <input type="text" id="last-name" class="form" placeholder="Last Name">
+        <span class="error-icon ln"><img src="images/icon-error.svg" alt=""></span>
+        <span class="error-text ln2">Last Name cannot be empty</span><br>
+      </div>
+      <div class="field-group">
+        <input type="text" id="email" class="form" placeholder="Email Address">
+        <span class="error-icon em"><img src="images/icon-error.svg" alt=""></span>
+        <span class="error-text em2">Looks like this is not a valid email</span><br>
+      </div>
+      <div class="field-group">
+        <input type="password" id="password" class="form" placeholder="Password">
+        <span class="error-icon pw"><img src="images/icon-error.svg" alt=""></span>
+        <span class="error-text pw2">Password must be at least 8 characters</span><br>
+      </div>
+        <input type="submit" id="submit" class="form" value="CLAIM YOUR FREE TRIAL"><br>
+        <p id="text-3">By clicking the button, you are agreeing to our <span id="term">Terms and Services</span></p>
+
+      </form>
+    </div>
+    </div>
+  </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
