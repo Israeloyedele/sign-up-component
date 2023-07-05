@@ -28,6 +28,7 @@ form.addEventListener('submit', e => {
         &&
         password.value.trim().match(/^[a-zA-Z0-9\$\!\@\#\%]{8,}$/)
     ){
+         alert('Thanks for signing up, check your email for confirmation :)');
         return true;
     }else {
         e.preventDefault();
